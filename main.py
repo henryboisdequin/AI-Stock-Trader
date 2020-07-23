@@ -373,7 +373,7 @@ if __name__ == '__main__':
         portfolio_value.append(val)  # Append episode end portfolio value to track progress
 
     # Save weights when done with episode
-    if args.mode == 'train':  # train mode
+    if args.mode == 'train':  # train mode 
         # Save the DQN agent
         agent.save(f'{models_folder}/dqn.h5')
 
