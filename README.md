@@ -22,3 +22,7 @@ Dataset:
 ```
 aapl_msi_sbux.csv
 ```
+
+To-do:
+- [] More visuals on the companies the model invested in
+- [] Predictions into the future with data from the past year
