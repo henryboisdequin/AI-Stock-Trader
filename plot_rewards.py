@@ -12,7 +12,7 @@ a = np.load(f'rl_trader_rewards/{args.mode}.npy')
 print(f"Average reward: {a.mean():.2f}, Min: {a.min():.2f}, Max: {a.max():.2f}")
 
 plt.hist(a, bins=20)
-plt.title(args.mode)
+plt.title(args.mode.capitalize())
 plt.show()
 
 """
