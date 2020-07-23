@@ -17,3 +17,8 @@ To Run:
 To Train: python main.py -m train && python plot_rewards.py -m train
 To Test: python main.py -m test && python plot_rewards.py -m test
 ```
+
+Dataset:
+```
+aapl_msi_sbux.csv
+```
