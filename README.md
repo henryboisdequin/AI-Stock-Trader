@@ -8,3 +8,9 @@ pip install pandas
 pip install numpy
 pip install sklearn
 ```
+
+To Run:
+```
+To Train: python main.py -m train && python plot_rewards.py -m train
+To Test: python main.py -m test && python plot_rewards.py -m test
+```
