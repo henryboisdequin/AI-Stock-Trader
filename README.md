@@ -26,3 +26,4 @@ aapl_msi_sbux.csv
 To-do:
 - [ ] More visuals on the companies the model invested in
 - [ ] Predictions into the future with data from the past year and a web driver that appends data to the csv after each day passes
+- [ ] Maybe make this into a PIP package ~ stock.predict_1year('TSLA') for example
